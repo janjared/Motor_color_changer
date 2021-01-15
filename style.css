@@ -1,0 +1,40 @@
+body{
+    padding: 10px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+#ninja400{
+    object-fit: cover;
+    position: fixed;
+    right: 0%;
+    height: 100%;
+    width: 100%;
+    bottom: 0px;
+}
+h1{
+    font-size: 100px;
+    color: black ;
+}
+.box{
+    height: 100%;
+    padding-top: 5rem;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#main{
+    position: relative;
+    z-index: 1;
+    margin: 0%;
+    max-width: 1000px;
+    text-align: center;
+}
+.box .row{
+    z-index: 1;
+    text-align: center;
+    position: relative;
+    margin: 0%;
+    background-color: white;
+}

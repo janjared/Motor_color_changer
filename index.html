@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ninjamotor changer</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit = no">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video id="ninja400" autoplay muted loop>
+        <source src="ninja400.mp4" type="video/mp4">
+    </video>
+
+        <div class="box">
+            <div class= "container" id="main" style="display: block;">
+                <h1 class="design">Ninja</h1>
+                <button id="enterBtn" onclick="myBtn()" class="button">Enter</button>
+            </div>
+            <div class="row" id="NinjaColor" style="display: none;">
+                <div>
+                    <h2 class="designName">MotorBike Color Changer </h2>
+                    <img src="motor.png" id="photo">
+                    <p class="col">Generate Random Color</p>
+                    <p class="col">Generate Specific Color</p>
+                </div>
+                <div class="row">
+                    <button class="col" onclick="MyGenerate()">Generate</button>
+                    <select class="col" id ="Idcolor">
+                        <option value=" "select disabled hidden>color</option>
+                        <option value='#ADD8E6'>light blue</option>
+                        <option name= "colors">gray</option>
+                        <option name= "colors">blue</option>
+                        <option name= "colors">black</option>
+                        <option name= "colors">green</option>
+                        <option name= "colors">yellow</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <div class="col"></div>
+                    <button class="btnShow" onclick="show()">SHOW</button>
+                    <button class="btnReset" onclick="reset()">RESET</button>
+                    
+                </div>
+            </div>
+        </div>
+        <script src="java.js"></script>
+</body>
+</html>
